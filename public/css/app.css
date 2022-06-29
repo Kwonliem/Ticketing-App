@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.notification {
+  padding: 14px;
+  text-align: center;
+  background: #28B7B5;
+  color: #fff;
+  font-weight: 300;
+}
+
+.btn-white {
+  background: #fff;
+  color: #000;
+  text-transform: uppercase;
+  padding: 0px 25px 0px 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.custom-nav .navbar-brand {
+  color: #28B7B5;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.custom-nav .navbar-brand span {
+  color: #000;
+}
+
+.custom-nav .navbar-brand:hover {
+  color: #28B7B5 !important;
+}
+
+.custom-nav .navbar-brand:hover span {
+  color: #000;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  margin-right: 20px;
+  color: #000;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .active {
+  color: #28B7B5 !important;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .btn-login {
+  border-color: #28B7B5;
+  color: #28B7B5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .btn-login:hover {
+  background-color: #28B7B5;
+  color: #fff;
+}
+
+.jumbotron {
+  background: #fbfaff;
+  text-align: center;
+}
+
+.jumbotron .text-hero {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.jumbotron .text-hero span {
+  font-family: 'Pacifico', cursive;
+  color: #28B7B5;
+}
+
+.jumbotron .text-subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  color: #757384;
+}
+
+.jumbotron .btn-custom {
+  font-weight: 400;
+  font-size: 16px;
+  background: #28B7B5;
+  border: #28B7B5;
+  padding: 10px 24px 10px 24px;
+}
+
+.jumbotron .btn-primary:hover {
+  font-weight: 400;
+  font-size: 16px;
+  background: #239e9c;
+  border: #28B7B5;
+  padding: 10px 24px 10px 24px;
+}
+
+.jumbotron .btn-primary:active {
+  font-weight: 400;
+  font-size: 16px;
+  background: #28B7B5 !important;
+  border: #28B7B5;
+  padding: 10px 24px 10px 24px;
+}
+
+.container .text-center h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.container .text-center p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #757384;
+}
+
+.container .row .col-xl-4 .card {
+  border: none;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-8 h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-8 p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #757384;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-4 a {
+  float: right;
+  border: 1px solid #28B7B5;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: #28B7B5;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-4 a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #28B7B5;
+  color: #fff;
+}
+
+.circle-box {
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #28B7B5;
+  padding: 16px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.circle-box img {
+  height: 32px;
+  margin-top: 2px;
+}
+
+.footer .row .col-lg-3 {
+  margin-top: 30px;
+}
+
+.footer .row .col-lg-3 .brand {
+  color: #28B7B5;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 .brand span {
+  color: #000;
+}
+
+.footer .row .col-lg-3 .parent {
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.footer .row .col-lg-3 ul li {
+  margin-bottom: 8px;
+}
+
+.footer .row .col-lg-3 ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #a8a8a8;
+}
+
+.footer .text-center {
+  margin-bottom: 40px;
+}
+
+.footer .text-center p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #a8a8a8;
+}
+/*# sourceMappingURL=app.css.map */
